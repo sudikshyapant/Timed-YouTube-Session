@@ -10,7 +10,7 @@ Chrome WebDriver (download from https://sites.google.com/a/chromium.org/chromedr
 ## Installation
 1. Install Python 3.x from the official website.
 2. Install the Selenium library using pip:
-    pip install selenium
+pip install selenium
 3. Download the Chrome WebDriver from the provided link and place it in your PATH.
 
 ## Usage
@@ -36,7 +36,7 @@ def close_youtube():
         driver.quit()
 
 if __name__ == "__main__":
-    close_youtube()
+    close_youtube()    
     
 ## Contribution
 Contributions are welcome! Feel free to fork the repository and submit a pull request with your enhancements.
